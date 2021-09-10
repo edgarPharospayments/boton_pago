@@ -1,5 +1,5 @@
-# boton_pagoCancel changes
-datos requeridos en funcion submit
+url = "https://backoffice.pharospayments.com/api/v1/transaction_requests"
+apiKey = "68b0180a311e00933daef91cfbf04d9c0e2354c991a0e8053abf7d3f80b1aad7"
 
 transaction_request: {
   currency_code: "484", 
@@ -12,9 +12,9 @@ transaction_request: {
   cancel_url: "http://example.com/cancel.html",
   success_url: "http://example.com/success.html",
   error_url: "http://example.com/error.html",     
-  reference: "Reference",
-  email: "ignacio@eagerworks.com",
-  phone: '123123',
-  name: "Nacho",
+  reference: "",
+  email: "",
+  phone: '',
+  name: "",
   api_key: apiKey
-}        
+}
